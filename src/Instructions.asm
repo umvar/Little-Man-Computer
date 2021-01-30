@@ -67,13 +67,13 @@ IO_INP:
 	PUSH	dword ACU
 	PUSH	dword WordFMT
 	CALL	_scanf
-	ADD	esp, 8
+	ADD		esp, 8
 	RET
 
 ; OUT = ACU
 IO_OUT:
 	MOVZX	eax, word [ACU]
-	PUSH	eax
+	PUSH 	eax
 	PUSH	dword DecFMT	
 	CALL	_printf
 	ADD	esp, 8

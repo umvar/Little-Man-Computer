@@ -1,3 +1,3 @@
 # LMC 
 
-*LMC* Is an implementation of the Little Man Computer insturctional model in x86 Assembly. It models a simple von Neumann architecture computer.
+An implementation of the [Little Man Computer architecture](https://wikipedia.org/wiki/Little_man_computer) in x86 Assembly.
