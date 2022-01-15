@@ -1,4 +1,0 @@
-INP	
-STA 9
-OUT
-HLT
