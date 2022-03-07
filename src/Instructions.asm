@@ -67,7 +67,7 @@ IO_INP:
 	PUSH	dword ACU
 	PUSH	dword WordFMT
 	CALL	_scanf
-	ADD		esp, 8
+	ADD	esp, 8
 	RET
 
 ; OUT = ACU ; 
