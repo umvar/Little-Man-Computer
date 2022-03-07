@@ -55,11 +55,11 @@ OP_IO:
 	MOV	eax, [IO_TABLE + ebx*4]
 	JMP	eax
 
-; No IO Instruction
+; No IO Instruction ; 
 IO_NIO:
 	RET
 
-; ACU = INP 
+; ACU = INP ;
 IO_INP:	
 	PUSH	dword InpMSG
 	CALL	_printf
@@ -70,7 +70,7 @@ IO_INP:
 	ADD		esp, 8
 	RET
 
-; OUT = ACU
+; OUT = ACU ; 
 IO_OUT:
 	MOVZX	eax, word [ACU]
 	PUSH 	eax
